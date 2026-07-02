@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-ink-black: #0f101a;
+  --color-pure-white: #ffffff;
+  --color-cloud-gray: #f1f3f6;
+  --color-mist-gray: #c7c7c7;
+  --color-pebble-gray: #b8b8b8;
+  --color-stone: #777885;
+  --color-true-black: #000000;
+  --color-tangerine: #ff8a00;
+  --color-hot-pink: #ff54bb;
+  --color-sky-tint: #99eeff;
+  --color-coral-edge: #ff8465;
+  --color-cotton-sky: #94ffe8;
+  --color-lavender-mist: #a1cbfd;
+  --color-prism-wash: #75e6ff;
+
+  --font-sans: 'Nunito', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Nunito', ui-sans-serif, system-ui, sans-serif;
+  
+  --shadow-xl-inset: rgba(255, 255, 255, 0.32) 0px 5px 32px 12px inset, rgba(255, 255, 255, 0.44) 0px 1px 4px 0px inset;
+
+  --radius-cards: 32px;
+  --radius-pills: 50px;
+}
+
+:root {
+  --gradient-coral-edge: linear-gradient(270deg, #ff8465 0%, #ff62a3 100%);
+  --gradient-cotton-sky: radial-gradient(94.9% 94.9% at 50% 100%, #94ffe8 0%, #e9e2f6 35%, #f1f3f6 100%);
+  --gradient-lavender-mist: radial-gradient(100% 100% at 50% 100%, #a1cbfd 0%, #e0e5ff 33%, #f1f3f6 100%);
+  --gradient-prism-wash: linear-gradient(180deg, #75e6ff 0%, #fff0f0 8%, #fef0ff 14%, #fff7f0 21%, #eeebff 29%, #f6ebff 37%, #ffffff 47%, #e5f1ff 67%, #ffffff 100%);
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-pure-white);
+  color: var(--color-ink-black);
+}
